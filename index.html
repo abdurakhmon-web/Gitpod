@@ -9,9 +9,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
   <link rel="stylesheet" href="css/style.css">
   <title>Gipod - Always Ready to Code.</title>
-
 </head>
 
 <body>
@@ -131,12 +131,124 @@
       </div>
     </div>
   </section>
+
+  <section class="developers">
+    <div class="container">
+      <div class="row">
+          <div class="developers-item col-lg-12">
+            <h3 class="text-center mb-5">Used by 400,000+ developers.</h3>
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide flex-column align-items-start">
+                  <span>GitPod is incredibly cool.</span>  <br>
+                    <p>In my opinion, this is a big step in open source software contribution. I'm excited to see where we go from here.</p> 
+                  <div class="slider-dev d-flex align-items-center">
+                    <img src="./img/ben.png" alt="">
+                    <div class="slider-text">
+                      <p>Ben Halpern</p>
+                      <span>Creator and Co-founder</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide flex-column align-items-start">
+                  <span>Let's say we were overwhelmed how smooth @gitpod workspaces creation & own Docker image for workspaces worked.</span>  <br>
+                    <p>Plus, installing @code extensions from the store and integrating @gitlab CI. That blew my mind entirely, and that is hard ;)</p> 
+                  <div class="slider-dev d-flex align-items-center">
+                    <img src="./img/mich.png" alt="">
+                    <div class="slider-text">
+                      <p>Michael Friedrich</p>
+                      <span>Developer Evangelist</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide flex-column align-items-start">
+                    <p>Look at any PR (pull request) in a full coding environment where you can edit, build, and test the PR code, by just prepending "gitpod.io#" to the PR URL. Super useful for reviewing/testing stuff without having to check it out locally!</p> 
+                  <div class="slider-dev d-flex align-items-center">
+                    <img src="./img/juli.png" alt="">
+                    <div class="slider-text">
+                      <p>Julius Volz</p>
+                      <span>Creator</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide flex-column align-items-start">
+                    <p>I think I’m in love with @gitpod. It’s such a powerful tool. I’ve learned so much in the past week just from stumbling across Github repos that interest me and appending “http://gitpod.io/#” to the URL. A+ tool all around.</p> 
+                  <div class="slider-dev d-flex align-items-center">
+                    <img src="./img/david.png" alt="">
+                    <div class="slider-text">
+                      <p>David Ressler</p>
+                      <span>Engineering Manager</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="partners">
+    <div class="container">
+      <div class="row">
+        <div class="partners-item  d-flex flex-column align-items-center col-lg-12">
+          <div class="partners-iem-top d-flex justify-content-between align-items-center col-lg-12">
+            <img src="./img/partners/gitlub.png" alt="">
+            <img src="./img/partners/freecode.png" alt="">
+            <img src="./img/partners/wave.png" alt="">
+            <img src="./img/partners/google.png" alt="">
+            <img src="./img/partners/amazon.png" alt="">
+            <img src="./img/partners/facebook.png" alt="">
+            <img src="./img/partners/uber.png" alt="">
+          </div>
+          <div class="partners-iem-top d-flex justify-content-between align-items-center col-lg-8">
+            <img src="./img/partners/openai.png" alt="">
+            <img src="./img/partners/intel.png" alt="">
+            <img src="./img/partners/theia.png" alt="">
+            <img src="./img/partners/code.png" alt="">
+            <img src="./img/partners/4geeks.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="project-git">
+    <div class="container">
+      <div class="row">
+        <div class="project-git-item text-center col-lg-12">
+          <h3>Get started now</h3>
+          <div class="project-git-left col-lg-6">
+            <h4>Connect Git repository</h4>
+            <p>Select a Git provider to start with an existing project from any Git context.</p>
+            <div class="project-git-btns d-flex flex-column align-items-center">
+              <a href="#"><img src="./img/gitlab.svg" alt="">Continue with GitLab</a>
+              <a href="#"><img src="./img/github1.svg" alt="">Continue with GitHub</a>
+              <a href="#"><img src="./img/bitbucket.svg" alt="">Continue with Bitbucket</a>
+            </div>
+            <span>Or prefix any GitLab, GitHub or Bitbucket URL with</span> <br>
+            <span class="project-link">gitpod.io/#</span>
+          </div>
+          <div class="project-git-right col-lg-6"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
     crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 25,
+    });
+  </script>
 </body>
 
 </html>

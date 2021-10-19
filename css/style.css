@@ -17,6 +17,56 @@ img{
     height: auto;
 }
 
+p{
+    margin: 0;
+}
+
+h3{
+    font-size: 54px;
+}
+
+
+.swiper {
+    width: 100%;
+    height: auto;
+  }
+
+  .swiper-slide {
+    background: #fff;
+    padding: 25px;
+    border-radius: 16px;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    color: #12100C;
+  }
+
+  .swiper .swiper-slide p{
+      margin-bottom: 15px;
+  }
+  .swiper .swiper-slide .slider-dev .slider-text{
+      margin-left: 15px;
+  }
+  .swiper .swiper-slide .slider-dev .slider-text p{
+      margin: 0;
+      font-weight: 700;
+  }
+  .swiper .swiper-slide .slider-dev .slider-text span{
+      text-decoration: underline !important;
+  }
+  
+
+
 header .navbar{
     width: 100%;
 }
@@ -116,9 +166,11 @@ header .header-item-left .header-item-img img{
     background: #FFB0AE;
 }
 
+.vs-code{
+    padding-bottom: 175px;
+}
+
 .vs-code .vs-code-item h3{
-    font-size: 54px;
-    font-weight: 700;
     margin-bottom: 50px;
 }
 .vs-code .vs-code-item p{
@@ -140,4 +192,64 @@ header .header-item-left .header-item-img img{
     margin-right: 10px;
 }
 
+.developers{
+    padding-bottom: 125px;
+}
+
+.partners{
+    padding-bottom: 200px;
+}
+
+
+.project-git{
+    padding-bottom: 160px;
+}
+.project-git .project-git-item h3{
+    margin-bottom: 50px;
+}
+.project-git .project-git-item h4{
+    font-size: 32px;
+}
+.project-git .project-git-item p{
+    font-size: 22px;
+}
+.project-git .project-git-item .project-git-left{
+    background: #fff;
+    border-radius: 20px;
+    padding: 56px 70px 65px;
+}
+.project-git .project-git-item .project-git-left span{
+    font-size: 20px;
+    color: rgba(18, 16, 12, 0.7);
+}
+.project-git .project-git-item .project-git-left .project-link{
+    padding: 5px 16px;
+    background: #FFE4BC;
+    border-radius: 12px;
+}
+.project-git .project-git-item .project-git-left .project-git-btns a{
+    width: 262px;
+    padding: 10px 33px;
+    background: #FC6D26;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 16px;
+    margin-top: 60px;
+    border-radius: 15px;
+}
+.project-git .project-git-item .project-git-left .project-git-btns{
+    margin-bottom: 64px;
+}
+.project-git .project-git-item .project-git-left .project-git-btns a img{
+    margin-right: 16px;
+}
+.project-git .project-git-item .project-git-left .project-git-btns a:nth-child(2){
+    background: #000000;
+    margin-top: 0px
+}
+.project-git .project-git-item .project-git-left .project-git-btns a:nth-child(3){
+    background: #2684FF;
+    margin-top: 0px
+}
 
