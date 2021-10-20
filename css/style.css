@@ -12,6 +12,16 @@ body{
     background: #F5F3F4;
 }
 
+::-webkit-scrollbar{
+    width: 0.6rem;
+    background: #413e3e;
+}
+  
+::-webkit-scrollbar-thumb{
+    background: #FF8E07;
+    border-radius: .5rem;
+}
+
 img{ 
     max-width: 100%;
     height: auto;
