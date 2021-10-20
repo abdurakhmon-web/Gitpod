@@ -51,7 +51,7 @@
           </div>
         </nav>
         <!-- Navbar End -->
-        <div class="header-item col-lg-12 d-flex align-items-center">
+        <div class="header-item col-lg-12 d-flex flex-wrap align-items-center">
           <div class="header-item-left col-lg-6">
             <h1>Always <br>
               Ready to Code.
@@ -100,7 +100,7 @@
   <section class="command">
     <div class="container">
       <div class="row">
-        <div class="command-items d-flex align-items-center col-lg-12">
+        <div class="command-items d-flex align-items-center flex-wrap col-lg-12">
           <div class="command-item-left col-lg-6">
             <h3>Think CI/CD for dev environments</h3>
             <p>We invented prebuilds so application code, configuration and infrastructure can all be stored as machine-executable code in your git repositories and applied to dev environments automatically and continuously.</p>
@@ -193,7 +193,7 @@
     <div class="container">
       <div class="row">
         <div class="partners-item  d-flex flex-column align-items-center col-lg-12">
-          <div class="partners-iem-top d-flex justify-content-between align-items-center col-lg-12">
+          <div class="partners-item-top d-flex flex-wrap justify-content-between align-items-center col-lg-12">
             <img src="./img/partners/gitlub.png" alt="">
             <img src="./img/partners/freecode.png" alt="">
             <img src="./img/partners/wave.png" alt="">
@@ -202,7 +202,7 @@
             <img src="./img/partners/facebook.png" alt="">
             <img src="./img/partners/uber.png" alt="">
           </div>
-          <div class="partners-iem-top d-flex justify-content-between align-items-center col-lg-8">
+          <div class="partners-item-top d-flex justify-content-between align-items-center col-lg-8">
             <img src="./img/partners/openai.png" alt="">
             <img src="./img/partners/intel.png" alt="">
             <img src="./img/partners/theia.png" alt="">
@@ -217,9 +217,11 @@
   <section class="project-git">
     <div class="container">
       <div class="row">
-        <div class="project-git-item text-center col-lg-12">
+        <div class="project-git-title text-center col-lg-12">
           <h3>Get started now</h3>
-          <div class="project-git-left col-lg-6">
+        </div>
+        <div class="project-git-item text-center d-flex justify-content-lg-between justify-content-md-center col-lg-12">
+          <div class="project-git-left d-flex flex-column align-items-center col-lg-6 col-md-8">
             <h4>Connect Git repository</h4>
             <p>Select a Git provider to start with an existing project from any Git context.</p>
             <div class="project-git-btns d-flex flex-column align-items-center">
@@ -230,11 +232,132 @@
             <span>Or prefix any GitLab, GitHub or Bitbucket URL with</span> <br>
             <span class="project-link">gitpod.io/#</span>
           </div>
-          <div class="project-git-right col-lg-6"></div>
+          <div class="project-git-right col-lg-6 col-md-8">
+            <h4>Launch an example workspace</h4>
+            <p>Dive into one of our example workspaces</p>
+            <div class="lang">
+              <div class="lang-info">
+                <img src="./img/lang/ts.svg" alt="">
+              <span>TypeScript</span>
+              </div>
+              <a href="#">Launch workspace</a>
+            </div>
+            <div class="lang">
+              <div class="lang-info">
+                <img src="./img/lang/pyton.png" alt="">
+              <span>Python</span>
+              </div>
+              <a href="#">Launch workspace</a>
+            </div>
+            <div class="lang">
+              <div class="lang-info">
+                <img src="./img/lang/go.svg" alt="">
+              <span>Go</span>
+              </div>
+              <a href="#">Launch workspace</a>
+            </div>
+            <div class="lang">
+              <div class="lang-info">
+                <img src="./img/lang/rust.svg" alt="">
+              <span>Rust</span>
+              </div>
+              <a href="#">Launch workspace</a>
+            </div>
+            <div class="lang">
+              <div class="lang-info">
+                <img src="./img/lang/java.svg" alt="">
+              <span>Java</span>
+              </div>
+              <a href="#">Launch workspace</a>
+            </div>
+            <div class="lang">
+              <div class="lang-info">
+                <img src="./img/lang/svelte.svg" alt="">
+              <span>Svelte</span>
+              </div>
+              <a href="#">Launch workspace</a>
+            </div>
+            
+          </div>
         </div>
       </div>
     </div>
   </section>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="footer-box d-flex justify-content-center col-lg-12">
+          <div class="footer-box-item col-lg-10">
+            <div class="footer-box-nav d-flex justify-content-between">
+              <div class="box-item col-lg-2">
+                <p>Gitpod</p>
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Features</a></li>
+                  <li><a href="#">Pricing</a></li>
+                  <li><a href="#">Changelog</a></li>
+                  <li><a href="#">Self-Hosted</a></li>
+                  <li><a href="#">Gitpod vs GitHub <br> Codespaces</a></li>
+                  <li><a href="#">Status</a></li>
+                </ul>
+              </div>
+              <div class="box-item col-lg-2">
+                <p>Developer</p>
+                <ul>
+                  <li><a href="#">Getting started</a></li>
+                  <li><a href="#">Screencasts</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Documentation</a></li>
+                  <li><a href="#">Self-Hosted</a></li>
+                  <li><a href="#">Report a bug</a></li>
+                  <li><a href="#">Community</a></li>
+                </ul>
+              </div>
+              <div class="box-item col-lg-2">
+                <p>Company</p>
+                <ul>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Careers</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Contact</a></li>
+                  <li><a href="#">Media Kit</a></li>
+                </ul>
+              </div>
+              <div class="box-item col-lg-2">
+                <p>Legal</p>
+                <ul>
+                  <li><a href="#">Imprint</a></li>
+                  <li><a href="#">Terms of Service</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer-item-bootom mb-3">
+              <hr>
+              <div class="footer-social d-flex justify-content-between col-lg-12">
+                <div class="footer-logo">
+                  <img src="./img/footer-logo.png" alt="">
+                  <span>Copyright © 2021 Gitpod</span>
+                </div>
+                <div class="footer-socials">
+                  <a href="#"><img src="./img/twitter.png" alt=""></a>
+                  <a href="#"><img src="./img/github.png" alt=""></a>
+                  <a href="#"><img src="./img/com.png" alt=""></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom d-flex justify-content-between align-items-center">
+      <p>This website uses cookies to enhance the user experience. Read our <span>privacy policy</span> for more info.</p>
+      <a href="#">Accept Cookies</a>
+    </div>
+  </footer>
+
+
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
